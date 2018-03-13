@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Latihan JS</title>
+</head>
+<body>
+<script type="text/javascript">
+	alert("Hello World");
+	document.write("<h3>Hello World</h3>");
+	
+	var a=5;
+	var b=10;
+	var c=a+b;
+	alert("Hasil 5+10 adalah : "+c);
+	document.write("Hasil perhitungn "+c);
+	var name=prompt("Siapa Namamu ?");
+	document.write("<br><h2>Halloo : "+name+" Selamat Datang !</h2>");
+	
+	var a=0;
+	for(a=0;a<10;a++)
+	{
+		document.write("<font size=40>"+a+"</font>");
+	}
+	
+	function tampil(x,y)
+	{
+		var c=x+y;
+		document.write("Saya tampil setelah tombol ditekan!");
+		document.write("<br>Hasil Penjumlahan : "+c);
+	}
+</script>
+
+<input type="submit" value="tekan" onclick="tampil(10,10)"/>
+</body>
+</html>

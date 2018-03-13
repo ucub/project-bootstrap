@@ -1,0 +1,38 @@
+<div class="container-fluid text-center" style="margin-top: 50px">
+        <div class="row content">
+            <div class="col-sm-1 sidenav">
+            </div>
+            <div class="col-sm-9 text-left">
+                <br>
+                <div class="list-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-tittle">Membuat Template HTML Dengan Disisipi Javascript Bagian 1</h4>
+                        </div>
+                        <div class="panel-body">
+                        <textarea disabled="true" style="border" rows="40" cols="100">
+                            <?php
+                            $myfile = fopen("./media/codingan/latihanJS1.txt", "r") or die("Unable to open file!");
+                            echo fread($myfile,filesize("./media/codingan/latihanJS1.txt"));
+                            fclose($myfile);
+                            ?>
+                        </textarea>
+                            <br>
+                        <img src="./media/gambar/4.JPG" height="100px" weidth="200px">
+                            <br>
+                        <img src="./media/gambar/5.JPG" height="100px" weidth="200px">
+                            <br>
+                        <img src="./media/gambar/6.JPG" height="100px" weidth="200px">
+                            <br>
+                        <img src="./media/gambar/7.JPG" height="100px" weidth="200px">
+                            <br>
+                        <img src="./media/gambar/8.JPG" height="50px" weidth="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php
+            include './sidebar.php';
+            ?>
+        </div>
+    </div>

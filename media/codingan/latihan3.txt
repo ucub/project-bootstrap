@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Latihan List 2</title>
+<link rel="stylesheet" title="style/css" href="../Praktek 3/webstyle.css"/>
+</head>
+
+<body bgcolor="#999999">
+<div>
+	<div class="judul">
+    	<h2>Judul</h2>
+	</div>
+    <div class="menu">
+	<ul>
+	<li><a href="">Home</a></li>
+    <li><a href="">Client Side</a>
+    	<ul>
+    		<li><a href="">HTML</a></li>
+        	<li><a href="">Javascript</a></li>
+        	<li><a href="">CSS</a></li>
+        </ul>
+    <li><a href="">Server Side</a>
+    	<ul>
+    		<li><a href="">PHP</a></li>
+        	<li><a href="">JSP</a></li>
+        	<li><a href="">AJAX</a></li>
+            <li><a href="">JQUERY</a></li>
+            <li><a href="">MYSQL</a></li>
+        </ul>
+    <li><a href="">Desktop Side</a>
+    	<ul>
+    		<li><a href="">Delphi</a></li>
+        	<li><a href="">VB.60</a></li>
+        	<li><a href="">JAVA</a></li>
+        </ul>
+    </li>
+    <li><a href="">Networking</a></li>
+    <li><a href="">About Me</a></li>
+    </ul>
+    </div>
+	<div class="left">
+    	<h2>Left</h2>
+	</div>
+    <div class="right">
+    	<h2>Right</h2>
+	</div>
+    <div class="konten">
+    	<video width="350" height"350" controls class="video">
+        	<source src="clc.mp4" type"video/mp4>
+        
+	</div>
+    <div class="bawah">
+    	<h2>Bawah</h2>
+	</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<div class="container-fluid text-center" style="margin-top: 50px">
+        <div class="row content">
+            <div class="col-sm-1 sidenav">
+            </div>
+            <div class="col-sm-9 text-left">
+                <br>
+                <div class="list-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-tittle">Menghilangkan Text Dengan JQuery Setelah Diklik Dengan CUrsor</h4>
+                        </div>
+                        <div class="panel-body">
+                            <p>Codingan HTML</p>
+                        <textarea disabled="true" style="border" rows="20" cols="100">
+                            <?php
+                            $myfile = fopen("./media/codingan/jquery2.txt", "r") or die("Unable to open file!");
+                            echo fread($myfile,filesize("./media/codingan/jquery2.txt"));
+                            fclose($myfile);
+                            ?>
+                        </textarea>
+                            <br>
+                            <p>Before</p>
+                        <img src="./media/gambar/jq3.JPG" height="100px" weidth="200px">
+                            <br>
+                            <p>After</p>
+                        <img src="./media/gambar/jq4.JPG" height="100px" weidth="200px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php
+            include './sidebar.php';
+            ?>
+        </div>
+    </div>

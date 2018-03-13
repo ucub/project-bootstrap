@@ -1,0 +1,30 @@
+<div class="container-fluid text-center" style="margin-top: 50px">
+        <div class="row content">
+            <div class="col-sm-1 sidenav">
+            </div>
+            <div class="col-sm-9 text-left">
+                <br>
+                <div class="list-group">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-tittle">Membuat template HTML Sederhana dengan embeded video.</h4>
+                        </div>
+                        <div class="panel-body">
+                        <textarea disabled="true" style="border" rows="40" cols="100">
+                            <?php
+                            $myfile = fopen("./media/codingan/latihan2.txt", "r") or die("Unable to open file!");
+                            echo fread($myfile,filesize("./media/codingan/latihan2.txt"));
+                            fclose($myfile);
+                            ?>
+                        </textarea>
+                            <br>
+                            <img src="./media/gambar/2.JPG" height="400px" weidth="800px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php
+            include './sidebar.php';
+            ?>
+        </div>
+    </div>

@@ -1,0 +1,36 @@
+<html>
+<head>
+	<title>Saya Belajar ProWeb</title>
+<style>
+.tabel { background-color: #999999;
+		 color: #333333;
+		 font-size:18px;
+		 font-family:Verdana;
+		 border-radius:30px}
+.gambar{ border:2px solid #FFFFFF;
+		 border-radius:50px}
+</style>
+</head>
+
+<body>
+	<h1>Hello World</h1>
+    <table border="0" width="700" class="tabel" align="center">
+     <tr>
+     	<td colspan="2" align="center">Perkenalan Diri</td>
+     </tr>
+     <tr>
+     	<td>NIM</td><td>A11.2016.09621</td>
+        <td rowspan="4" align="center"><img src="Jellyfish.jpg" width="100" height="100" class="gambar"></td>
+     </tr>
+     <tr>
+     	<td>Nama</td><td>Yusuf Yudha Sanjaya</td>
+     </tr>
+     <tr>
+     	<td>Alamat</td><td>Jln. Mugas Dalam IV No.2</td>
+     </tr>
+     <tr>
+     	<td>Kota</td><td>Kota Semarang</td>
+     </tr>
+    </table>
+</body>
+</html>

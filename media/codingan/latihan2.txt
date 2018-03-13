@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Web Media Player</title>
+<style>
+.judul{background-color:#0033FF;
+	height:150px;
+	margin:0px auto;
+	padding:0px;
+	width:800px;
+	color:#FFFFFF;
+	border-radius:20px 20px 0 0;
+	text-align:center;}
+.left{background-color:#00CC99;
+	height:400px;
+	margin:0px 0px 0px 232px;
+	padding:5px;
+	float:left;
+	text-align:center;
+	width:200px}
+.right{background-color:#00CC99;
+	height:400px;
+	margin:0px 232px 0px 0px;
+	padding:5px;
+	float:right;
+	text-align:center;
+	width:200px}
+.konten{background-color:#CCCC33;
+	height:400px;
+	margin:0px auto;
+	text-align:center;
+	padding:5px;
+	width:400px}
+.bawah{background-color:#FF66FF;
+	height:100px;
+	padding:5px;
+	margin:0px auto;
+	width:790px;
+	border-radius:0 0 20px 20px;
+	text-align:center;
+	color:#FFFFFF}
+.video{border:2px solid black;
+	border-radius:20px}
+</style>
+</head>
+
+<body>
+<div>
+	<div class="judul">
+    	<h2>Judul</h2>
+	</div>
+    <div class="left">
+    	<h2>Left</h2>
+	</div>
+    <div class="right">
+    	<h2>Right</h2>
+	</div>
+    <div class="konten">
+    	<video width="350" height"350" controls class="video">
+        	<source src="clc.mp4" type"video/mp4>
+        
+	</div>
+    <div class="bawah">
+    	<h2>Bawah</h2>
+	</div>
+</body>
+</html>
